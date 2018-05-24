@@ -1,0 +1,21 @@
+{
+  "name": "bootstrap-ng-modal",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "main": "bundles/bootstrap-ng-modal.umd.js",
+  "module": "fesm5/bootstrap-ng-modal.js",
+  "es2015": "fesm2015/bootstrap-ng-modal.js",
+  "esm5": "esm5/bootstrap-ng-modal.js",
+  "esm2015": "esm2015/bootstrap-ng-modal.js",
+  "fesm5": "fesm5/bootstrap-ng-modal.js",
+  "fesm2015": "fesm2015/bootstrap-ng-modal.js",
+  "typings": "bootstrap-ng-modal.d.ts",
+  "metadata": "bootstrap-ng-modal.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
