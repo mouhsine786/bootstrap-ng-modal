@@ -1,6 +1,6 @@
 # bootstrap-ng-modal
 
-#Pre requirements
+# Pre requirements
 - Bootstrap
 - JQuery
 
