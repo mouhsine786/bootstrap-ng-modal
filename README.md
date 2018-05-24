@@ -49,7 +49,7 @@ export class ModalOneComponent implements OnInit {
 }
 ```
 
-### Use the modal any the component
+### Use the modal in any component
 ```sh
 example.component.html
 <button type="button" class="btn btn-success ml-3" (click)="openModal({})">New</button>
