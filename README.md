@@ -4,12 +4,45 @@
 - Bootstrap
 - JQuery
 
-## How to use
+# How to use
+
+### import the module into your project
+- Include this in your angular.json under architect>build>scripts
+```sh
+"node_modules/jquery/dist/jquery.min.js", // this should already be included in your project (prerequirement)
+"node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",  // this should already be included in your project (prerequirement)
+"node_modules/bootstrap-ng-modal/bundles/bootstrap-ng-modal.umd.min.js"
+```
+
+- This should be included in your angular.json under architect>build>styles
+```sh
+"node_modules/bootstrap/dist/css/bootstrap.min.css"
+```
+
+### Import it in your module
+```sh
+....
+import { BootstrapNgModalModule } from 'bootstrap-ng-modal';
+
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    BootstrapNgModalModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+
+....
+```
+
 
 ### Define your modal component
 ```sh
 model.component.html
-<div class="modal fade bd-example-modal-lg" id="myModel" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal fade bd-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
@@ -54,7 +87,7 @@ export class ModalOneComponent implements OnInit {
 example.component.html
 <button type="button" class="btn btn-success ml-3" (click)="openModal({})">New</button>
 <bootstrap-ng-modal>
-  <app-modal [user]="user"></app-modal>
+  <app-modal [user]="user"></app-modal> <!-- Your modal component -->
 </bootstrap-ng-modal>
 ```
 
