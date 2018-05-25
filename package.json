@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-ng-modal",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mouhsine786/bootstrap-ng-modal.git"
@@ -9,6 +9,13 @@
     "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
     "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
   },
+  "keywords": [
+    "bootstrap",
+    "angular",
+    "ng",
+    "modal",
+    "dialog"
+  ],
   "main": "bundles/bootstrap-ng-modal.umd.js",
   "module": "fesm5/bootstrap-ng-modal.js",
   "es2015": "fesm2015/bootstrap-ng-modal.js",
