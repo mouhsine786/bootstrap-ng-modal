@@ -1,5 +1,5 @@
 import { __assign } from 'tslib';
-import { Injectable, EventEmitter, Output, Component, NgModule, defineInjectable } from '@angular/core';
+import { Injectable, EventEmitter, Output, NgModule, Component, defineInjectable } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 /**

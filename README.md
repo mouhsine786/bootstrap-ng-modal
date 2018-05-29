@@ -1,17 +1,16 @@
 # bootstrap-ng-modal
 
 # Pre requirements
-- Bootstrap
-- JQuery
+- Bootstrap (npm i bootstrap --save)
+- JQuery (npm i jquery --save)
 
 # How to use
 
 ### import the module into your project
 - Include this in your angular.json under architect>build>scripts
 ```sh
-"node_modules/jquery/dist/jquery.min.js", // this should already be included in your project (prerequirement)
-"node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",  // this should already be included in your project (prerequirement)
-"node_modules/bootstrap-ng-modal/bundles/bootstrap-ng-modal.umd.min.js"
+"node_modules/jquery/dist/jquery.min.js",
+"node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
 ```
 
 - This should be included in your angular.json under architect>build>styles
